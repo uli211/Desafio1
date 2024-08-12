@@ -1,9 +1,8 @@
-﻿Console.WriteLine(Multiplication.Multiply(3, 3));
-// Esta clase implementa la operación Addition
-public class Multiplication
+﻿Console.WriteLine(Division.Divide(18, 2));
+public class Division
 {
-    public static int Multiply(int a, int b)
+    public static double Divide(int a, int b)
     {
-        return a * b;
+        return (double)a / b;
     }
 }
